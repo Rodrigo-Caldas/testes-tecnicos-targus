@@ -1,8 +1,7 @@
 FROM python:latest
 
-COPY app app
+COPY . /Tarefa
 
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install -r /Tarefa/requirements.txt
 
-CMD ["python", "app/app.py"]
+CMD ["python", "/Tarefa/app/app.py"]
