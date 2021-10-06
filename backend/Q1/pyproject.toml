@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "q1"
+version = "0.1.0"
+description = ""
+authors = ["ericmiguel <e.miguel@targusenergia.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+pandas = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
