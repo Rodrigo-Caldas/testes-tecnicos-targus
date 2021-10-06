@@ -1,31 +1,31 @@
 [
   {
-    "time": 1633557903,
+    "time": 1633558997,
     "step": 0,
     "cmd": "START"
   },
   {
-    "time": 1633557978,
+    "time": 1633559163,
     "step": 1,
     "cmd": "FROM python:latest"
   },
   {
-    "time": 1633557978,
+    "time": 1633559163,
     "step": 2,
     "cmd": "COPY . /Tarefa"
   },
   {
-    "time": 1633557978,
+    "time": 1633559163,
     "step": 3,
     "cmd": "RUN pip install -r /Tarefa/requirements.txt"
   },
   {
-    "time": 1633557978,
+    "time": 1633559163,
     "step": 4,
-    "cmd": "CMD [\"python\", \"/Tarefa/app/app.py\"]"
+    "cmd": "CMD [\"python\", \"/Tarefa/app/main.py\"]"
   },
   {
-    "time": 1633557978,
+    "time": 1633559163,
     "step": -1,
     "cmd": "END"
   }
