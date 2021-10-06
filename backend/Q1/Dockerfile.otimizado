@@ -4,4 +4,4 @@ COPY . /Tarefa
 
 RUN pip install -r /Tarefa/requirements.txt
 
-CMD ["python", "/Tarefa/app/app.py"]
+CMD ["python", "/Tarefa/app/main.py"]
