@@ -40,4 +40,6 @@ Dockerfile e colocar o projeto para funcionar.
 
 ---
 
-*sua resposta aqui*
+Primeiramente eu vi as dependências que não precisavam serem instaladas no requirements.txt original e apenas retirei algumas delas,
+isso diminuiu o tamanho do build consideravelmente. Cada linha do Dockerfile é como se fosse uma camada da imagem, eu tentei utilizar
+a menor quantidade possível de comandos para buildar a imagem e consequentemente diminuir o tempo da construção dela.
